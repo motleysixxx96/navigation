@@ -1,0 +1,28 @@
+.navbar
+{
+
+  overflow:hidden;
+  background-color: lightblue;
+}
+
+.navbar a
+{
+  float:left;
+  color: purple;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.navbar a:hover
+{
+  background-color: purple;
+  color: white;
+}
+
+.navbar a.active
+{
+  background-color: green;
+  color:white;
+
+}
